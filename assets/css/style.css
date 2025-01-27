@@ -1401,7 +1401,7 @@ textarea:focus {
 
 .navbar-nav .nav-item {
   position: relative;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .navbar-nav .nav-item:last-child {
@@ -1750,6 +1750,12 @@ skill css
   z-index: 1;
 }
 
+.skill-area .about{
+  color: #F2A92C;
+  font-size: 15px;
+  f  
+}
+
 .skill-area .single-skill {
   padding: 35px 30px;
   border-radius: 8px;
@@ -1880,7 +1886,11 @@ course css
     line-height: 28px;
   }
 }
-
+@media (max-width: 767px) {
+  .course-area .all-cources{
+    margin-left: -200px;
+  }
+}
 @media (max-width: 767px) {
   .course-area .single-course .course-info h4 a {
     font-size: 20px;
@@ -2482,5 +2492,134 @@ footer css
   .testimonial-area .single-testimonial .testimonial-content h4 {
     font-size: 16px;
   }
+}
+
+
+
+.about-us-area {
+  background: #fff;
+  padding: 80px 0 90px;
+}
+
+.about-us-area .section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-us-area .section-title h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #283747;
+  margin-bottom: 15px;
+}
+
+.about-us-area .section-title p {
+  font-size: 16px;
+  color: #747e88;
+  line-height: 1.8;
+}
+
+.about-us-area .slogan {
+  font-size: 24px;
+  font-weight: 600;
+  color: #283747;
+  margin-bottom: 15px;
+}
+
+.about-us-area .slogan-description {
+  font-size: 16px;
+  color: #747e88;
+  line-height: 1.8;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-us-area .mission-vision {
+  margin-bottom: 50px;
+}
+
+.about-us-area .mission-vision h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #283747;
+  margin-bottom: 20px;
+}
+
+.about-us-area .mission-vision p {
+  font-size: 16px;
+  color: #747e88;
+  line-height: 1.8;
+}
+
+.about-us-area .core-values, .about-us-area .success-factors {
+  margin-bottom: 50px;
+}
+
+.about-us-area .core-values-title, .about-us-area .success-factors-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #283747;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-us-area .core-values-list, .about-us-area .success-factors-list {
+  list-style: none;
+  padding: 0;
+}
+
+.about-us-area .core-values-list li, .about-us-area .success-factors-list li {
+  font-size: 16px;
+  color: #747e88;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.about-us-area .core-values-list li strong, .about-us-area .success-factors-list li strong {
+  font-weight: 600;
+  color: #283747;
+}
+
+.about-us-area .core-values-list li i, .about-us-area .success-factors-list li i {
+  color: #F2A92C;
+  margin-right: 10px;
+}
+
+.about-us-area .core-values-list li i, .about-us-area .success-factors-list li i {
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .about-us-area .slogan {
+    font-size: 20px;
+  }
+
+  .about-us-area .mission-vision h3,
+  .about-us-area .core-values-title,
+  .about-us-area .success-factors-title {
+    font-size: 20px;
+  }
+
+  .about-us-area .mission-vision p,
+  .about-us-area .core-values-list li,
+  .about-us-area .success-factors-list li {
+    font-size: 14px;
+  }
+}
+
+.about-us-area .view-all-btn a {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 36px;
+  border: 2px solid #F2A92C;
+  color: #283747;
+  text-align: center;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.about-us-area .view-all-btn a:hover {
+  color: #fff;
+  background: #F2A92C;
 }
 /*# sourceMappingURL=style.css.map */
