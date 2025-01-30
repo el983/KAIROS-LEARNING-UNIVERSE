@@ -67,7 +67,7 @@
 }
 /* Hover Effect */
 .card:hover .card-image {
-  transform: scale(1.8); /* Zooms the image */
+  transform: scale(1.5); /* Zooms the image */
 }
 
 .card:hover .image-content::before {
@@ -78,7 +78,7 @@
 }
 
 .name {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 500;
   color: #333;
 }
