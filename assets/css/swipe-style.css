@@ -41,7 +41,7 @@
   flex-direction: column;
   align-items: center;
   padding: 20px 0;
-  background-color: #efbc25;
+  background-color: #ffffff;
   border-radius: 8px;
 }
 
@@ -67,7 +67,7 @@
 }
 /* Hover Effect */
 .card:hover .card-image {
-  transform: scale(1.2); /* Zooms the image */
+  transform: scale(1.5); /* Zooms the image */
 }
 
 .card:hover .image-content::before {
