@@ -1273,7 +1273,7 @@ textarea:focus {
 
 @media (max-width: 767px) {
   .navbar-brand .just-for-phone {
-    width: 80px;
+    width: auto;
   }
 }
 
