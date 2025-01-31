@@ -1624,7 +1624,7 @@ hero area css
 
 @media (max-width: 767px) {
   .hero-area .hero-content .hero-logo-img {
-    margin-left: 42px;
+    margin-left: 45px;
     width: 180px;
   }
 }
