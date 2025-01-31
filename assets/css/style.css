@@ -1267,6 +1267,10 @@ textarea:focus {
   padding: 0;
 }
 
+.navbar-brand .just-for-phone {
+  display: flex; align-items:center; margin-left: -90px;
+}
+
 @media (max-width: 767px) {
   .navbar-brand .just-for-phone {
     width: 80px;
